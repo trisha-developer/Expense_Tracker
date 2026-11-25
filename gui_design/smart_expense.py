@@ -27,6 +27,7 @@ label3 = ctk.CTkLabel(side_bar,text="",image=icon1)
 label3.pack(pady=25)
 
 #buttons
+#we can also use loop here
 btn1=ctk.CTkButton(side_bar,text="🏠 Home",font=("Vintage",18,"bold"),text_color="#fff",fg_color="transparent",hover_color="#355C43",anchor="w")
 btn2=ctk.CTkButton(side_bar,text="📑 Plans",font=("Vintage",18,"bold"),text_color="#fff", fg_color="transparent",hover_color="#355C43",anchor="w")
 btn3=ctk.CTkButton(side_bar,text="📈 Track",font=("Vintage",18,"bold"),text_color="#fff", fg_color="transparent",hover_color="#355C43",anchor="w")
